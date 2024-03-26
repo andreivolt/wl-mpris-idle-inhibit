@@ -1,0 +1,38 @@
+===================
+MPRIS specification
+===================
+
+MPRIS is a fairly generic interface with commands that could be
+applied to control a wide range of media players. However, even though
+the phrase 'Media Player' is present in MPRIS, the specification was
+developed with the assumption that it would be applied to audio
+players.
+
+  <http://www.mpris.org>
+  <http://specifications.freedesktop.org/mpris-spec/latest/>
+
+Requirements
+============
+
+Building HTML documentation for telepathy-spec requires:
+  GNU make <http://www.gnu.org/software/make/>
+  libxslt, xsltproc <http://xmlsoft.org/XSLT/>
+  Python <http://www.python.org/>
+  Docutils (rst2html tool) <http://docutils.sourceforge.net/>
+
+Bugs, feature requests and to-do list
+=====================================
+
+Report all errata, feature requests and "to-do" items here:
+  <mailto:mpris@lists.freedesktop.org>,
+
+  (mailman: <http://lists.freedesktop.org/mailman/listinfo/mpris>)
+
+Hacking
+=======
+
+The current development version of mpris-spec is available from the
+'master' branch in the git repository:
+  <git://anongit.freedesktop.org/xdg/mpris-spec>
+
+  See also <http://cgit.freedesktop.org/xdg/mpris-spec>.
